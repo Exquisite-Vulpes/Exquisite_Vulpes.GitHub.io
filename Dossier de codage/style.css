@@ -1,0 +1,171 @@
+ body { 
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    background-image: url(Image/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header {
+    background-color: hsl(180, 1%, 81%);
+    padding: 15px;
+    position: sticky;
+    top: 0px;
+    border-bottom: solid hsl(240, 1%, 30%);
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 0%;
+}
+
+h1::selection {
+color: blue;
+background-color: hsl(0, 0%, 17%);
+
+}
+
+.he1 {
+    font-size: 17px;
+    background-color:blueviolet;
+    color: hsl(113, 92%, 64%);
+    border-radius: 10px;
+    border: solid hsl(113, 92%, 64%);
+    margin: 10px;
+
+}
+
+.he1:hover{
+    font-size: 1.3em;
+    color: yellow;
+    background-color: black;
+    border: outset hsl(0, 4%, 95%);
+}
+
+
+h2 {
+    color: black;
+    text-shadow: 3px 3px 5px blueviolet, -3px -3px 5px hsl(113, 92%, 64%);
+    text-align: center;
+}
+
+h2::before{
+ content: "🐦";
+ font-size: 1.2em;
+}
+
+#A1 {
+    border-style: outset;
+    border-width: 3px;
+    border-color: hsla(240, 90%, 49%, 0.986);
+    border-radius: 10px;
+}
+
+.divside {
+    margin: auto;
+    display: flex;
+    max-width: 800px;
+    padding: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#img1 {
+    width: 100%;
+}
+
+#img1:hover{
+    border-color: hsl(0, 92%, 48%);
+}
+
+#img2 {
+    width: 50%;
+}
+
+
+footer {
+    margin-left: 10px;
+    
+}
+
+#img3 {
+    width: 150%;
+}
+
+#img4 {
+    width: 50%;
+}
+
+#text4 {
+    width: 50%;
+ 
+}
+
+
+
+.textpool {
+    color: hsl(0, 0%, 100%);
+    font-family: cursive;
+    font-size: 1.3em;
+    
+}
+
+.textpool::selection{
+background-color: aqua;
+color: hsl(308, 100%, 54%);
+}
+
+footer {
+    background-color: hsl(180, 1%, 81%);
+    margin: 0;
+    text-align: center;
+}
+
+#email:link{
+color: hsl(313, 100%, 50%);
+
+}
+
+#email:hover{
+    font-size: 2em;
+}
+
+img{
+    border-radius: 10px;
+    border: solid black;
+    margin-left: 50px;
+}
+
+.page{
+    text-align: center;
+    
+}
+
+.page a{
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.page a.active{
+    background-color: blue;
+    font-weight: bold;
+}
+
+.page a:hover:not(:active){
+    background-color: black;
+    border-radius: 5px;
+    color:chartreuse
+}
+
+
