@@ -5,7 +5,7 @@
  body {
      margin: 0;
      padding: 0;
-     font-family: verdana;
+     font-family: Verdana,Helvetica,sans-serif;
      background-color: black;
      background-image: url(Image/background.jpg);
      background-repeat: no-repeat;
@@ -267,7 +267,7 @@ iframe{
 
  .textpool {
      color: hsl(0, 0%, 100%);
-     font-family: cursive;
+     font-family:Helvetica,cursive,;
      font-size: 1.2em;
      padding: 50px;
      margin: 0%;
