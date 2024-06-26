@@ -8,28 +8,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image.gif" href="Image/Bird Icon.gif">
-
+  <script src="https://kit.fontawesome.com/ffcbcb34a3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
-    <h1>Welcome</h1>
+    <h1 id="toptag">Welcome</h1>
+    <input id="myinput" placeholder="Username">
+    <button id="mysubmit">submit</button>
+    <br>
 
-    <a class="he1" href="">Home</a>
-    <a class="he1" href="">About</a>
-    <a class="he1" href="">Products</a>
-    <a class="he1" href="">Contact</a>
+    <button class="he1">home</button>
+    <a class="he1"  href="#">About</a>
+    <a class="he1" href="#">Products</a>
+    <a class="he1" href="#">Contact</a>
     <a class="he1" href="Other-Projects/index2.html" target="_blank">An anonymus link haha
     </a>
+    <a href="https://www.youtube.com" target="_blank">
+      <i class="fa-brands fa-youtube fa-2x"></i>
+
+    </a>
   </header>
+  <div class="wrapper">
+    <div  class="item item1"></div>
+    <div  class="item item2"></div>
+    <div  class="item item3"></div>
+    <div  class="item item4"></div>
+    <div  class="item item5"></div>
+    <div  class="item item6"></div>
+    <div  class="item item7"></div>
+    <div  class="item item8"></div>
+    </div>
 
 
+
+  <label id="counter">0 </label><br>
+  <div id="btnContainer">
+    <button  class="btn" id="decrease">decrease</button>
+    <button class="btn" id="reset">reset</button>
+    <button class="btn" id="increase">increase</button>
+  </div>
+  
+
+  
+
+  <iframe 
+  width="560" height="315" 
+  src="https://www.youtube.com/embed/P9EtGjTd7_E?si=F-wCVjk--IoLqSZm" 
+  title="YouTube video player" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+  </iframe>
 
 
   <main>
     <h2 id="A2">A simple page about birds</h2>
 
-    <div class="divside">
+    <div class="divside" id="1st">
       <div class="textpool" id="text1">
         From the class of Aves these warm-blooded vertibrates
         are known for toothless beaked jaws,laying hard shelled
@@ -46,6 +82,7 @@
     </div>
 
     </div>
+
     <hr>
     <h2>Bird Features</h2>
     <div class="divside">
@@ -53,10 +90,7 @@
         <img id="img2" src="Image/Bird2.jpeg" alt="this image is a red bird">
       </div>
       <div class="textpool" id="text2">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        Qui iure voluptate recusandae ipsam aut expedita ipsum aliquam,
-        rerum, perspiciatis aspernatur, esse optio quaerat commodi
-        blanditiis eligendi? Officia quas ipsam recusandae.
+
       </div>
 
     </div>
@@ -87,7 +121,8 @@
       </div>
     </div>
     <div class="page">
-      <a href="">< </a>
+      <a href="">
+        < </a>
           <a href="index.html" class="active">1 </a>
           <a href="page2.html">2</a>
           <a href="page3.html">3</a>
